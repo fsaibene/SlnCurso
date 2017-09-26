@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BO", "BO\BO.csproj", "{87FB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{7B8183FB-F788-435F-827C-5A8123A016F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApp", "WindowsApp\WindowsApp.csproj", "{C2A80CF9-871F-480A-AED8-7C46565C3162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaPOO", "LibreriaPOO\LibreriaPOO.csproj", "{CA54CB95-4F36-4D02-A982-44D1A1B99219}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7B8183FB-F788-435F-827C-5A8123A016F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B8183FB-F788-435F-827C-5A8123A016F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B8183FB-F788-435F-827C-5A8123A016F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A80CF9-871F-480A-AED8-7C46565C3162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A80CF9-871F-480A-AED8-7C46565C3162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A80CF9-871F-480A-AED8-7C46565C3162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A80CF9-871F-480A-AED8-7C46565C3162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA54CB95-4F36-4D02-A982-44D1A1B99219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA54CB95-4F36-4D02-A982-44D1A1B99219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA54CB95-4F36-4D02-A982-44D1A1B99219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA54CB95-4F36-4D02-A982-44D1A1B99219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

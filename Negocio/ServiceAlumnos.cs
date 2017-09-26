@@ -5,12 +5,12 @@ namespace Negocio
 {
     public class ServiceAlumnos
     {
-        public void agregar(Alumno alumno)
+        public void agregar(Persona alumno)
         {
 
         }
 
-        public void modificar(Alumno alumno)
+        public void modificar(Persona alumno)
         {
 
         }
@@ -23,7 +23,7 @@ namespace Negocio
         /// Retornar todos los alumnos 
         /// </summary>
         /// <returns>Lista de alumnos</returns>
-        public List<Alumno> traerTodos()
+        public List<Persona> traerTodos()
         {
             return null;
         }
@@ -32,7 +32,7 @@ namespace Negocio
         /// </summary>
         /// <param name="ciudad"> Se espera una ciudad ej: Quilmes</param>
         /// <returns>Lista de alumnos</returns>
-        public List<Alumno> traerTodos(string ciudad)
+        public List<Persona> traerTodos(string ciudad)
         {
             return null;
         }

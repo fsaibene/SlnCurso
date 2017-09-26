@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BO
 {
-    public class Alumno
+    public class Alumno : Persona
     {
         #region Atributos
         private string nombre;
@@ -16,52 +16,24 @@ namespace BO
         private string ciudad;
         #endregion
         #region Propiedades
-        public string Nombre
-        {
-            get { return nombre; }
-            set { nombre = value; }
-        }
 
-        public string Apellido
-        {
-            get { return apellido; }
-            set { apellido = value; }
-        }
 
-        public string Email
-        {
-            get { return email; }
-            set { email = value; }
-        }
-
-        public int Dni
-        {
-            get { return dni; }
-            set { dni = value; }
-        }
-
-        public string Ciudad
-        {
-            get { return ciudad; }
-            set { ciudad = value; }
-        }
+        public int Legajo { get; set; }
         #endregion
 
         #region Constructores
-        public Alumno()
-        {
-            
-        }
 
-        public Alumno(string nombre, string apellido, string ciudad, int dni, string email)
+        public Alumno(string nombre, string apellido, string ciudad, int dni, string email, int legajo) 
+            : base(nombre, apellido, ciudad, dni, email)
         {
-            this.nombre = nombre;
-            this.apellido = apellido;
-            this.ciudad = ciudad;
-            this.dni = dni;
-            this.email = email;
+            Legajo = legajo;
         }
         #endregion
-
+        #region Metodos
+        public override string ToString()
+        {
+            return base.ToString() + "\nLegajo: " + Legajo;
+        }
+        #endregion
     }
 }
