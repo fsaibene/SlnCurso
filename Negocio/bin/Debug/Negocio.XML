@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Negocio</name>
+    </assembly>
+    <members>
+        <member name="M:Negocio.ServiceAlumnos.traerTodos">
+            <summary>
+            Retornar todos los alumnos 
+            </summary>
+            <returns>Lista de alumnos</returns>
+        </member>
+        <member name="M:Negocio.ServiceAlumnos.traerTodos(System.String)">
+            <summary>
+            Retorna todos los alumnos segun ciudad
+            </summary>
+            <param name="ciudad"> Se espera una ciudad ej: Quilmes</param>
+            <returns>Lista de alumnos</returns>
+        </member>
+        <member name="M:Negocio.ServiceProfesores.traerTodos">
+            <summary>
+            Retornar todos los profesores 
+            </summary>
+            <returns>Lista de profesores</returns>
+        </member>
+        <member name="M:Negocio.ServiceProfesores.traerTodos(System.String)">
+            <summary>
+            Retorna todos los profesores segun especialidad
+            </summary>
+            <param name="especialidad"> Se espera una especialidad ej: matematica</param>
+            <returns>Lista de profesores</returns>
+        </member>
+    </members>
+</doc>

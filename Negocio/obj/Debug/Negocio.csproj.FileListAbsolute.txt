@@ -1,0 +1,8 @@
+c:\users\cursonet\documents\visual studio 2015\Projects\SlnCurso\Negocio\bin\Debug\Negocio.XML
+c:\users\cursonet\documents\visual studio 2015\Projects\SlnCurso\Negocio\bin\Debug\Negocio.dll
+c:\users\cursonet\documents\visual studio 2015\Projects\SlnCurso\Negocio\bin\Debug\Negocio.pdb
+c:\users\cursonet\documents\visual studio 2015\Projects\SlnCurso\Negocio\bin\Debug\BO.dll
+c:\users\cursonet\documents\visual studio 2015\Projects\SlnCurso\Negocio\bin\Debug\BO.pdb
+c:\users\cursonet\documents\visual studio 2015\Projects\SlnCurso\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+c:\users\cursonet\documents\visual studio 2015\Projects\SlnCurso\Negocio\obj\Debug\Negocio.dll
+c:\users\cursonet\documents\visual studio 2015\Projects\SlnCurso\Negocio\obj\Debug\Negocio.pdb
